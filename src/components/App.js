@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import NavBar from "./NavBar";
 import LandingPage from "./LandingPage";
 import AboutMe from "./AboutMe";
