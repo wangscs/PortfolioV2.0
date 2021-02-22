@@ -5,7 +5,11 @@ import React from "react";
 // https://devpost.com/software/rethinq
 
 function Projects() {
-  return <div></div>;
+  return (
+    <div>
+      
+    </div>
+  );
 }
 
 export default Projects;

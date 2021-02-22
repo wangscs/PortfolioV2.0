@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position:sticky;
+  overflow: hidden;
+  background-color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  font-size: x-large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navBar li {
+  float: left;
+  top: 50%;
+}
+
+.navBar li:first-child {
+  border-left: none;
+}
+
+.navBar li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar li a:hover:not(.active) {
+  background-color: #111;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBar .active {
+  color: #4CAF50;
+}
+
+.landing-page {
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+  margin: 16px;
+  padding: 10px;
+  width: 240px;
+}
+
+.project p {
+  font-size: 1.1em;
+}
+
+
+
+footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: small;
+  color:#707174;
 }
