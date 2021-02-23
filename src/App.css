@@ -2,12 +2,11 @@
   text-align: center;
 }
 
+/* *******************************NAVBAR************************************ */
 .navBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: -webkit-sticky; /* Safari */
-  position:sticky;
   overflow: hidden;
   background-color: #333;
 }
@@ -41,30 +40,58 @@
   color: #4CAF50;
 }
 
+/* *******************************LANDING PAGE****************************** */
 .landing-page {
   height: 100vh;
+  margin: auto;
+  padding-top: 250px;
+  width: 80%;
+}
+
+/* *******************************ABOUT ME PAGE***************************** */
+.about-me-container {
+  margin: auto;
+  padding: 200px 50px;
+  width: 70%;
+}
+
+/* *******************************SKILLS PAGE******************************* */
+.skills-container {
+  margin: auto;
+  padding: 200px 50px;
+  width: 70%;
+}
+
+.skills-container li {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 
 
 
 
-
-
-
-
-
-
-
+/* *******************************PROJECT PAGE****************************** */
+.project-container {
+  margin: auto;
+  padding: 200px 50px;
+  width: 70%;
+}
 
 .project {
   background-color: #fff;
-  border-radius: 7px;
+  border-radius: 3px;
   box-shadow: 0 2px 5px #ccc;
-  float: left;
-  margin: 16px;
+  display: inline-block;
+  height: 250px;
+  margin: 8px;
   padding: 10px;
   width: 240px;
+  overflow: hidden;
+}
+
+.project h3 {
+  font-size: 1.1em;
 }
 
 .project p {
@@ -72,7 +99,7 @@
 }
 
 
-
+/* *******************************FOOTER************************************ */
 footer {
   text-align: center;
   bottom: 0;
