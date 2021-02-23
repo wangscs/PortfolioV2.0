@@ -3,16 +3,25 @@
 }
 
 /* *******************************NAVBAR************************************ */
+.nav-bar-container {
+  background-color: rgba(0,0,0,0.5);
+  height: 80px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  transition: top 0.6s; /* Transition effect when sliding up/down */
+  width: 100%;
+}
+
 .navBar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 1% 5%;
   overflow: hidden;
-  background-color: #333;
 }
 
 .logo {
-  font-size: x-large;
+  font-size: large;
 }
 
 .navBar li {
@@ -24,28 +33,35 @@
   border-left: none;
 }
 
-.navBar li a {
-  display: block;
+.navBar li a:hover {
+  background-color: #111;
+  color: #ddd;
+}
+
+.navBar a {
   color: white;
+  display: block;
+  padding: 15px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-.navBar li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.navBar .active {
-  color: #4CAF50;
+.resume {
+  border: 1px solid red;
+  border-radius: 2px;
 }
 
 /* *******************************LANDING PAGE****************************** */
-.landing-page {
+.landing-page-container {
   height: 100vh;
+}
+
+.landing-page {
+  /* height: 100vh; */
+  height: 100%;
   margin: auto;
-  padding-top: 250px;
-  width: 80%;
+  padding: 250px 50px;
+  width: 70%;
 }
 
 /* *******************************ABOUT ME PAGE***************************** */
