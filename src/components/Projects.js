@@ -1,13 +1,17 @@
 import React from "react";
 
 
-// The URL for the Devpost project ShellHacks2020 is
-// https://devpost.com/software/rethinq
+function Projects(props) {
 
-function Projects() {
+
+
   return (
-    <div>
-      
+    <div className="project">
+      <img src={props.img} alt="project"/>
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+      {/* <button><img src={props.gitIMG}><a>{props.gitLink}</a></img></button> */}
+      {/* <button><img src={props.liveIMG}><a>{props.liveLink}</a></img></button> */}
     </div>
   );
 }
