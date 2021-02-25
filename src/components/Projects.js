@@ -1,10 +1,6 @@
 import React from "react";
 
-
 function Projects(props) {
-
-
-
   return (
     <div className="project">
       <img src={props.img} alt="project"/>
