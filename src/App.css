@@ -1,16 +1,38 @@
+/* 
+  Color Theme 
+    Background color  #023246
+    Nav Titles        #287094
+    Headings          #F6F6F6
+    Content           #D4D4CE
+*/
 .App {
   text-align: center;
+  background-color: white;
+}
+.nav-bar-container {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.navBar a{
+  color: black;
+}
+h1, h2, h3{
+  color: black;
+}
+p {
+  color: black;
 }
 
 /* *******************************NAVBAR************************************ */
 .nav-bar-container {
-  background-color: rgba(0,0,0,0.5);
   height: 80px;
   margin: 0 auto;
   position: fixed;
   top: 0;
-  transition: top 0.6s; /* Transition effect when sliding up/down */
+  transition: top 0.5s; /* Transition effect when sliding up/down */
   width: 100%;
+  -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,.1);
+  -moz-box-shadow:    0 10px 5px 0 rgba(0,0,0,.1);
+  box-shadow:         0 10px 5px 0 rgba(0,0,0,.1);
 }
 
 .navBar {
@@ -27,19 +49,18 @@
 .navBar li {
   float: left;
   top: 50%;
+  margin: 0 2vw;
 }
 
 .navBar li:first-child {
   border-left: none;
 }
 
-.navBar li a:hover {
-  background-color: #111;
-  color: #ddd;
+.navBar a:hover {
+  color: red;
 }
 
 .navBar a {
-  color: white;
   display: block;
   padding: 15px;
   text-align: center;
@@ -53,45 +74,87 @@
 
 /* *******************************LANDING PAGE****************************** */
 .landing-page-container {
+  background-image: url("https://wallpapercave.com/wp/wp3287421.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
 .landing-page {
-  /* height: 100vh; */
   height: 100%;
   margin: auto;
   padding: 250px 50px;
-  width: 70%;
+  width: 80%;
+  text-align: left;
+}
+
+.landing-page h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.landing-page h1 {
+  font-size: 5em;
+  margin: 0 ;
+}
+
+.landing-page p {
+  font-size: 1em;
+  margin: 0;
 }
 
 /* *******************************ABOUT ME PAGE***************************** */
 .about-me-container {
   margin: auto;
-  padding: 200px 50px;
-  width: 70%;
+  padding: 50px 50px;
+  width: 80%;
 }
 
 /* *******************************SKILLS PAGE******************************* */
 .skills-container {
-  margin: auto;
-  padding: 200px 50px;
-  width: 70%;
+  margin: 10vh auto;
+  padding: 20vh 50px;
+  width: 80%;
 }
 
 .skills-container li {
+  display: block;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style-type: none;
 }
 
+.parent {
+  color: #ccc;
+  border: 3px solid blue;
+  height: 700px;
+  width: 100%;
+}
 
+.leftChildDiv {
+  float: left;
+  width: 50%;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
 
+.rightChildDiv {
+  float: right;
+  width: 50%;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
 
 
 /* *******************************PROJECT PAGE****************************** */
 .project-container {
   margin: auto;
-  padding: 200px 50px;
-  width: 70%;
+  padding: 50px 50px;
+  width: 80%;
 }
 
 .project {
@@ -113,6 +176,11 @@
 .project p {
   font-size: 1.1em;
 }
+
+/* *******************************CONTACT*********************************** */
+
+
+
 
 
 /* *******************************FOOTER************************************ */
