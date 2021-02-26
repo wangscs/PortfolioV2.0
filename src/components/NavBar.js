@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Scroll from "react-scroll";
-import { debounce} from '../utilities/helpers'
+import { debounce} from '../utilities/helpers';
 
-const ScrollLink= Scroll.ScrollLink;
-
-function NavBar(){
+function NavBar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
@@ -26,30 +23,20 @@ function NavBar(){
 
   }, [prevScrollPos, visible, handleScroll]);
 
+
   return (
     <div className="nav-bar-container" style={{top: visible ? '0' : '-100px'}}>
       <ul className="navBar">
-        <li><a href="/" className="logo">Home</a></li>
-        <li>
-          <ScrollLink
-            
-            to="/about"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration={500}
-            className="nav-link"
-          >
-            About
-          </ScrollLink>
-        </li>
-        <li><a href="./skills">Skills</a></li>
-        <li><a href="./projects">Projects</a></li>
-        <li><a href="./contact">Contact</a></li>
-        <li><a href="/resume" className="resume">Resume</a></li>
+        <li><a href="#/" className="logo">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume" className="resume">Resume</a></li>
       </ul>
     </div>
   );
 }
+
 
 export default NavBar;
