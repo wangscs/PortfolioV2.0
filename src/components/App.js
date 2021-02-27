@@ -9,9 +9,9 @@ import Footer from "./Footer";
 import '../App.css';
 import ProjectList from '../ProjectList';
 import ScrollableAnchor from "react-scrollable-anchor";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +21,7 @@ function App() {
         <Skills />
         <ScrollableAnchor id={"projects"}>
           <div className="project-container">
+          <ScrollAnimation animateIn="fadeInUp" >
             <h1>Projects</h1>
             {ProjectList.map(projectItem => {
               return (
@@ -33,7 +34,7 @@ function App() {
                   liveLink    = {projectItem.liveProject}
                 />
               );
-            })}
+            })}</ScrollAnimation>
           </div>
         </ScrollableAnchor>
         <Contact />
