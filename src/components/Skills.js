@@ -11,8 +11,8 @@ function Skills() {
         <h1>Skills</h1>
         <p>Here are some of the languages, concepts and technologies I have worked with: </p>
 
-        <div className="parent">
-          <div className="leftChildDiv">
+        <div className="skill-table-container">
+          <div className="FrontEndDiv">
             <img src={FrontEndIcon} className="skill-icon" alt="s"></img>
             <h3>FrontEnd</h3>
               <p>HTML5</p>
@@ -20,6 +20,8 @@ function Skills() {
               <p>Javascript</p>
               <p>JQuery</p>
               <p>React.js</p>
+          </div>
+          <div className="BackEndDiv">
             <img src={BackEndIcon} className="skill-icon" alt="s"></img>
             <h3>BackEnd</h3>
               <p>Express</p>
@@ -30,7 +32,7 @@ function Skills() {
               <p>PHP</p>
               <p>Laravel</p>
           </div>
-          <div className="rightChildDiv">
+          <div className="ConceptDiv">
             <img src={ConceptIcon} className="skill-icon" alt="s"></img>
             <h3>Database/Concepts</h3>
               <p>MongoDB</p>
