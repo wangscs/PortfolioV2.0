@@ -4,7 +4,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 function Contact() {
   return(
     <ScrollableAnchor id={"contact"}>
-      <div>
+      <div className="contact">
         <h1>Let's Connect!</h1>
         <p>
           Whether you have a question or simply want to say hi, feel free 

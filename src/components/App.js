@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import '../App.css';
 import ProjectList from '../ProjectList';
+import ScrollableAnchor from "react-scrollable-anchor";
 
 function App() {
 
@@ -18,21 +19,23 @@ function App() {
         <LandingPage />
         <AboutMe />
         <Skills />
-        <div className="project-container">
-          <h1>Projects I've Built</h1>
-          {ProjectList.map(projectItem => {
-            return (
-              <Projects
-                key         = {projectItem.id}
-                title       = {projectItem.title}
-                img         = {projectItem.imageURL}
-                description = {projectItem.description}
-                gitLink     = {projectItem.repoLink}
-                liveLink    = {projectItem.liveProject}
-              />
-            );
-          })}
-        </div>
+        <ScrollableAnchor id={"projects"}>
+          <div className="project-container">
+            <h1>Projects</h1>
+            {ProjectList.map(projectItem => {
+              return (
+                <Projects
+                  key         = {projectItem.id}
+                  title       = {projectItem.title}
+                  img         = {projectItem.imageURL}
+                  description = {projectItem.description}
+                  gitLink     = {projectItem.repoLink}
+                  liveLink    = {projectItem.liveProject}
+                />
+              );
+            })}
+          </div>
+        </ScrollableAnchor>
         <Contact />
         <Footer />
       </header>
