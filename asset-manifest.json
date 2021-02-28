@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PortfolioV2.0/static/css/main.7010da3b.chunk.css",
+    "main.js": "/PortfolioV2.0/static/js/main.0d30c76d.chunk.js",
+    "main.js.map": "/PortfolioV2.0/static/js/main.0d30c76d.chunk.js.map",
+    "runtime-main.js": "/PortfolioV2.0/static/js/runtime-main.06497555.js",
+    "runtime-main.js.map": "/PortfolioV2.0/static/js/runtime-main.06497555.js.map",
+    "static/js/2.d203e8a2.chunk.js": "/PortfolioV2.0/static/js/2.d203e8a2.chunk.js",
+    "static/js/2.d203e8a2.chunk.js.map": "/PortfolioV2.0/static/js/2.d203e8a2.chunk.js.map",
+    "index.html": "/PortfolioV2.0/index.html",
+    "precache-manifest.6f47d1bdc2ce0ffe08417e8fa1090b51.js": "/PortfolioV2.0/precache-manifest.6f47d1bdc2ce0ffe08417e8fa1090b51.js",
+    "service-worker.js": "/PortfolioV2.0/service-worker.js",
+    "static/css/main.7010da3b.chunk.css.map": "/PortfolioV2.0/static/css/main.7010da3b.chunk.css.map",
+    "static/js/2.d203e8a2.chunk.js.LICENSE.txt": "/PortfolioV2.0/static/js/2.d203e8a2.chunk.js.LICENSE.txt",
+    "static/media/BackEndIcon.svg": "/PortfolioV2.0/static/media/BackEndIcon.92c7d580.svg",
+    "static/media/ConceptIcon.svg": "/PortfolioV2.0/static/media/ConceptIcon.be2a454d.svg",
+    "static/media/FrontEndIcon.svg": "/PortfolioV2.0/static/media/FrontEndIcon.9901c4dd.svg",
+    "static/media/GitHub.png": "/PortfolioV2.0/static/media/GitHub.d22ee372.png",
+    "static/media/App.css": "/PortfolioV2.0/static/media/landingPage.227a2b84.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06497555.js",
+    "static/js/2.d203e8a2.chunk.js",
+    "static/css/main.7010da3b.chunk.css",
+    "static/js/main.0d30c76d.chunk.js"
+  ]
+}
