@@ -6,146 +6,152 @@
     Content           #D4D4CE
 */
 .App {
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  background-color: rgb(236, 236, 236);
-}
-.nav-bar-container {
-  background-color: rgba(255, 255, 255, 0.95);
-}
-.navBar a{
-  color: black;
-}
-h1, h2, h3{
-  color: black;
-}
-p {
-  color: black;
+  background-color: rgb(2, 16, 16);
 }
 
+h1 {
+  color: white;
+}
 /* *******************************NAVBAR************************************ */
 .nav-bar-container {
-  height: 80px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0);
+  height: 60px;
   margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
   position: fixed;
   top: 0;
   transition: top 0.5s; /* Transition effect when sliding up/down */
   width: 100%;
-  overflow: hidden;
-  -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,.1);
-  -moz-box-shadow:    0 10px 5px 0 rgba(0,0,0,.1);
-  box-shadow:         0 10px 5px 0 rgba(0,0,0,.1);
+  
+  -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,.1); /* Safari/Chrome/ Webkits*/
+  -moz-box-shadow:    0 10px 5px 0 rgba(0,0,0,.1); /* Firefox, other Gecko */
+  box-shadow:         0 10px 5px 0 rgba(0,0,0,.1); /* Opera/IE 8+ */
 }
 
 .navBar {
+  backdrop-filter: blur(20px);
+  display: flex;
   list-style-type: none;
   margin: auto;
-  padding: 1% 5%;
+  width: 100%;
 }
 
 .logo {
-  font-size: large;
+  border-left: none;
+  float: left;
 }
 
 .navBar li {
-  float: left;
-  top: 50%;
-  margin: 0 2vw;
+  margin: 0 1vw;
 }
 
-.navBar li:first-child {
-  border-left: none;
+.navBar a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .navBar a:hover {
   color: red;
 }
 
-.navBar a {
-  display: block;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-}
-
 .resume {
   border: 1px solid red;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .nav-section {
+    position: absolute;
+    visibility: hidden;
+  }
 }
 
 /* *******************************LANDING PAGE****************************** */
 .landing-page-container {
-  background-image: url("https://wallpapercave.com/wp/wp3287421.jpg");
+  background-image: url("./components/images/landingPage.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
+  margin: 0;
 }
 
 .landing-page {
-  height: 100%;
   margin: auto;
-  padding: 250px 50px;
+  padding: auto 50px ;
+  padding-top: 24em;
   width: 80%;
   text-align: left;
 }
 
 .landing-page h3 {
+  color: white;
   font-size: 2em;
   margin: 0;
 }
 
 .landing-page h1 {
+  color: bisque;
   font-size: 5em;
   margin: 0 ;
 }
 
 .landing-page p {
+  color: antiquewhite;
   font-size: 1em;
   margin: 0;
 }
 
 /* *******************************ABOUT ME PAGE***************************** */
 .about-me-container {
-  display: inline-block;
-  margin: auto;
-  padding: 5em 50px;
+  padding: 5em 5em;
+  margin: 0 auto;
   text-align: left;
   width: 80%;
 }
 
+.about-me {
+  margin: 0;
+  width: 60%;
+}
+
 .about-me-container h1 {
+  color: white;
   font-size: 2em;
-  width: 50%;
 }
 
 .about-me-container p {
+  color: white;
   font-size: 1em;
-  width: 50%;
-}
-
-.about-me-container img {
-  float: right;
-  width: 40%;
 }
 
 /* *******************************SKILLS PAGE******************************* */
 .skills-container {
   margin: 0 auto;
-  padding: 15vh 50px;
+  padding: 5vh 5em;
   width: 80%;
 }
 
-.skills-container li {
-  display: block;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style-type: none;
+.skills {
+  background-color: white;
+  border-radius: 30px;
+  padding: 2em;
+}
+
+.skills h1 {
+  color: black;
 }
 
 .skill-table-container {
-  color: #ccc;
-  /* border: 3px solid blue; */
+  color: black;
   height: 400px;
   width: 100%;
 }
@@ -170,7 +176,10 @@ p {
 
 @media screen and (max-width:800px) {
   .FrontEndDiv, .BackEndDiv, .ConceptDiv {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width:100%;
+  }
+  .skills {
+    height: 1250px;
   }
 }
 
@@ -181,6 +190,7 @@ p {
 /* *******************************PROJECT PAGE****************************** */
 .project-container {
   margin: auto;
+  max-width: 1000px;
   padding: 50px 50px;
   width: 80%;
 }
@@ -192,9 +202,9 @@ p {
   display: inline-block;
   height: 250px;
   margin: 8px;
+  overflow: hidden;
   padding: 10px;
   width: 240px;
-  overflow: hidden;
 }
 
 .project h3 {
@@ -206,23 +216,73 @@ p {
 }
 
 /* *******************************CONTACT*********************************** */
-
-.contact {
-  height: 50vh;
+.ending{
+  background-image: url(./components/images/ending.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.contact-container {
+  color: white;
+  height: 35vh;
+  padding-top: 5em;
+}
 
+.contact {
+  margin: 0 auto;
+  width: 60%;
+}
 
+.contact button {
+  background-color: #95b2ec;
+  border: solid #EAEAEA 3px;
+  color: #EAEAEA;
+  cursor: pointer;
+  font-size: 2em;
+  padding: .5em;
+  text-align: center;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
 
+.contact a {
+  text-decoration: none;
+}
+
+.contact button:hover {
+  background-color: #08D9D6;
+  color: #252A34;
+  text-decoration: none;
+
+}
 
 /* *******************************FOOTER************************************ */
 footer {
-  text-align: center;
   bottom: 0;
+  height: 35vh;
+  text-align: center;
   width: 100%;
 }
 
+footer h1, h4 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer hr {
+  width: 30%;
+}
+.link-img {
+  margin: 2vw;
+  width: 3em;
+}
+
 footer p {
+  color:#9e9e9e;
   font-size: small;
-  color:#707174;
+  margin: 0;
 }
