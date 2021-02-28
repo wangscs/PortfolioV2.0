@@ -37,8 +37,10 @@ function App() {
             })}</ScrollAnimation>
           </div>
         </ScrollableAnchor>
-        <Contact />
-        <Footer />
+        <div className="ending"> 
+          <Contact />
+          <Footer />
+        </div>
       </header>
     </div>
   );
