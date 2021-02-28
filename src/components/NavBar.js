@@ -26,13 +26,17 @@ function NavBar() {
   return (
     <div className="nav-bar-container" style={{top: visible ? '0' : '-100px'}}>
       <ul className="navBar">
-        <li><a href="#/" className="logo">Home</a></li>
-        <li><a href="#about" className="nav-section">About</a></li>
-        <li><a href="#skills" className="nav-section">Skills</a></li>
-        <li><a href="#projects" className="nav-section">Projects</a></li>
-        <li><a href="#contact" className="nav-section">Contact</a></li>
-        <li><a href="#resume" className="resume">Resume</a></li>
-      </ul>
+        <div className="nav-left">
+          <li><a href="#/">Home</a></li>
+        </div>
+        <div className="nav-right">
+          <li><a href="#about" className="nav-section">About</a></li>
+          <li><a href="#skills" className="nav-section">Skills</a></li>
+          <li><a href="#projects" className="nav-section">Projects</a></li>
+          <li><a href="#contact" className="nav-section">Contact</a></li>
+          <li><a href="#resume" className="resume" style={{padding: ".3em"}}>Resume</a></li>
+        </div>
+        </ul>
     </div>
   );
 }

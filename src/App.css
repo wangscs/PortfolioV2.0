@@ -18,7 +18,7 @@ h1 {
 .nav-bar-container {
   backdrop-filter: blur(3px);
   background-color: rgba(255, 255, 255, 0);
-  height: 60px;
+  height: 3em;
   margin: 0 auto;
   overflow: hidden;
   padding: 0;
@@ -35,24 +35,29 @@ h1 {
 .navBar {
   backdrop-filter: blur(20px);
   display: flex;
+  height: 3em;
   list-style-type: none;
   margin: auto;
   width: 100%;
 }
 
-.logo {
+.nav-left {
   border-left: none;
   float: left;
 }
 
+.nav-right {
+  float: right;
+}
+
 .navBar li {
-  margin: 0 1vw;
+  margin: 0 1vw 0;
 }
 
 .navBar a {
   color: white;
   display: block;
-  padding: 10px;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
 }
@@ -64,6 +69,11 @@ h1 {
 .resume {
   border: 1px solid red;
   border-radius: 5px;
+  margin: .6em 0;
+}
+
+.resume a {
+  padding: 0;
 }
 
 @media screen and (max-width:800px) {
@@ -93,7 +103,7 @@ h1 {
 }
 
 .landing-page h3 {
-  color: white;
+  color: bisque;
   font-size: 2em;
   margin: 0;
 }
@@ -105,9 +115,10 @@ h1 {
 }
 
 .landing-page p {
-  color: antiquewhite;
+  color: bisque;
   font-size: 1em;
   margin: 0;
+  width: 20em;
 }
 
 /* *******************************ABOUT ME PAGE***************************** */
@@ -124,12 +135,12 @@ h1 {
 }
 
 .about-me-container h1 {
-  color: white;
+  color: bisque;
   font-size: 2em;
 }
 
 .about-me-container p {
-  color: white;
+  color: bisque;
   font-size: 1em;
 }
 
@@ -141,7 +152,7 @@ h1 {
 }
 
 .skills {
-  background-color: white;
+  background-color: rgb(252, 234, 208);
   border-radius: 30px;
   padding: 2em;
 }
@@ -190,21 +201,25 @@ h1 {
 /* *******************************PROJECT PAGE****************************** */
 .project-container {
   margin: auto;
-  max-width: 1000px;
+  max-width: 80em;
   padding: 50px 50px;
   width: 80%;
 }
 
+.project-container h1 {
+  color: bisque;
+}
+
 .project {
-  background-color: #fff;
+  background-color: bisque;
   border-radius: 3px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 15px rgb(134, 134, 134);
   display: inline-block;
-  height: 250px;
+  height: 15em;
   margin: 8px;
   overflow: hidden;
   padding: 10px;
-  width: 240px;
+  width: 20em;
 }
 
 .project h3 {
@@ -212,7 +227,7 @@ h1 {
 }
 
 .project p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 /* *******************************CONTACT*********************************** */
@@ -224,12 +239,12 @@ h1 {
 }
 
 .contact-container {
-  color: white;
   height: 35vh;
   padding-top: 5em;
 }
 
 .contact {
+  color: white;
   margin: 0 auto;
   width: 60%;
 }
