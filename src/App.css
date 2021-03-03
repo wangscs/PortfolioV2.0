@@ -100,29 +100,32 @@ h1 {
 }
 
 .landing-page {
+  position: relative;
   margin: auto;
   padding: auto 50px ;
   padding-top: 24em;
   width: 80%;
+  text-align: center;
+}
+
+.landing-page h3, h2, h1, p {
+  margin: 0;
   text-align: left;
 }
 
 .landing-page h3 {
   color: #9df3c4;
   font-size: 2em;
-  margin: 0;
 }
 
 .landing-page h1 {
   color: #d7fbe8;
   font-size: 7em;
-  margin: 0 ;
 }
 
 .landing-page h2 {
   color: #9df3c4;
   font-size: 3em;
-  margin: 0;
 }
 
 .landing-page p {
