@@ -16,9 +16,9 @@ h1 {
 }
 /* *******************************NAVBAR************************************ */
 .nav-bar-container {
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0);
-  height: 3em;
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.247);
+  height: 3.5em;
   margin: 0 auto;
   overflow: hidden;
   padding: 0;
@@ -26,6 +26,7 @@ h1 {
   top: 0;
   transition: top 0.5s; /* Transition effect when sliding up/down */
   width: 100%;
+  z-index: 1;
   
   -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,.1); /* Safari/Chrome/ Webkits*/
   -moz-box-shadow:    0 10px 5px 0 rgba(0,0,0,.1); /* Firefox, other Gecko */
@@ -35,35 +36,39 @@ h1 {
 .navBar {
   backdrop-filter: blur(20px);
   display: flex;
-  height: 3em;
+  height: 3.5em;
   list-style-type: none;
+  position: relative;
   margin: auto;
   width: 100%;
 }
 
-.nav-left {
-  border-left: none;
-  float: left;
+.logo {
+  position: absolute;
+  top: .3em;
+  width: 3em;
 }
 
 .nav-right {
-  float: right;
+  position: absolute;
+  right: 3em;
 }
 
 .navBar li {
+  display: inline;
   margin: 0 1vw 0;
 }
 
 .navBar a {
   color: white;
-  display: block;
+  display: inline-block;
   padding: 1em;
   text-align: center;
   text-decoration: none;
 }
 
 .navBar a:hover {
-  color: red;
+  color: #1fab89;
 }
 
 .resume {
@@ -103,27 +108,33 @@ h1 {
 }
 
 .landing-page h3 {
-  color: bisque;
+  color: #9df3c4;
   font-size: 2em;
   margin: 0;
 }
 
 .landing-page h1 {
-  color: bisque;
-  font-size: 5em;
+  color: #d7fbe8;
+  font-size: 7em;
   margin: 0 ;
 }
 
+.landing-page h2 {
+  color: #9df3c4;
+  font-size: 3em;
+  margin: 0;
+}
+
 .landing-page p {
-  color: bisque;
-  font-size: 1em;
+  color: #62d2a2;
+  font-size: 1.3em;
   margin: 0;
   width: 20em;
 }
 
 /* *******************************ABOUT ME PAGE***************************** */
 .about-me-container {
-  padding: 5em 5em;
+  padding: 5em auto;
   margin: 0 auto;
   text-align: left;
   width: 80%;
@@ -135,59 +146,88 @@ h1 {
 }
 
 .about-me-container h1 {
-  color: bisque;
+  color: #9df3c4;
   font-size: 2em;
 }
 
 .about-me-container p {
-  color: bisque;
+  color: #62d2a2;
   font-size: 1em;
 }
 
 /* *******************************SKILLS PAGE******************************* */
 .skills-container {
-  margin: 0 auto;
-  padding: 5vh 5em;
+  margin: 7em auto;
+  padding: 5vh auto;
   width: 80%;
 }
 
 .skills {
-  background-color: rgb(252, 234, 208);
-  border-radius: 30px;
+  /* background-color: #62d2a2; */
+  background-color: #d7fbe8;
+  border-radius: 20px;
   padding: 2em;
+  margin: 0 auto;
+  max-width: fit-content;
 }
 
 .skills h1 {
-  color: black;
+  color: #1fab89;
+}
+
+.skills h3 {
+  color: #1fab89;
+}
+
+.skills p {
+  color: #17b978;
+  min-width: 10em;
 }
 
 .skill-table-container {
-  color: black;
-  height: 400px;
+  height: 25em;
   width: 100%;
+  text-align: center;
+  position: relative;
 }
 
 .FrontEndDiv {
-  float: left;
-  height: 100%;
-  width: 33%;
+  display: inline-block;
+  height: 21em;
+  margin: 0 auto;
+  min-width: 8em;
+  padding: 1em;
+  position: relative;
 }
 
 .BackEndDiv {
-  float: left;
-  height: 100%;
-  width: 34%;
+  border-left: 1px solid #62d2a2;
+  border-right: 1px solid #62d2a2;
+  display: inline-block;
+  height: 21em;
+  margin: 0 auto;
+  min-width: 8em;
+  padding: 1em;
+  position: relative;
 }
 
 .ConceptDiv {
-  float:left;
-  height: 100%;
-  width:33%;
+  display: inline-block;
+  height: 21em;
+  margin: 0 auto;
+  min-width: 8em;
+  padding: 1em;
+  position: relative;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:860px) {
   .FrontEndDiv, .BackEndDiv, .ConceptDiv {
     width:100%;
+  }
+  .BackEndDiv{
+    border: none;
+    border-top: 1px solid #086972;
+    border-bottom: 1px solid #086972;
   }
   .skills {
     height: 1250px;
@@ -195,39 +235,81 @@ h1 {
 }
 
 .skill-icon {
-  width: 100px;
+  filter: invert(49%) sepia(99%) saturate(341%) hue-rotate(115deg) brightness(92%) contrast(89%);
+  width: 4em;
 }
 
 /* *******************************PROJECT PAGE****************************** */
 .project-container {
   margin: auto;
   max-width: 80em;
-  padding: 50px 50px;
-  width: 80%;
+  width: 90%;
 }
 
 .project-container h1 {
-  color: bisque;
+  color: #9df3c4;
 }
 
 .project {
-  background-color: bisque;
+  background-color: #d7fbe8;
   border-radius: 3px;
-  box-shadow: 0 2px 15px rgb(134, 134, 134);
+  box-shadow: 0 3px 8px rgb(134, 134, 134);
   display: inline-block;
-  height: 15em;
+  height: 17em;
   margin: 8px;
   overflow: hidden;
-  padding: 10px;
-  width: 20em;
+  position: relative;
+  padding: 1.5em;
+  top: 0;
+  transition: top ease 0.2s;
+  width: 17em; 
+}
+
+.project:hover {
+  top: -5px;
+}
+
+.project-folder-icon {
+  filter: invert(49%) sepia(99%) saturate(341%) hue-rotate(115deg) brightness(92%) contrast(89%);
+  float: left;
+  width: 2em;
+}
+
+.project-link {
+  filter: invert(80%) sepia(16%) saturate(1117%) hue-rotate(100deg) brightness(90%) contrast(88%);
+  float: right;
+  padding: .3em;
+  width: 1.4em;
+}
+
+/*
+  For future tint adjustments
+  https://codepen.io/sosuke/pen/Pjoqqp
+*/
+.project-link:hover {
+  filter: invert(47%) sepia(94%) saturate(356%) hue-rotate(115deg) brightness(96%) contrast(90%);
 }
 
 .project h3 {
+  color: #1fab89;
+  display: block;
   font-size: 1.1em;
+  margin-top: 2.5em;
+  margin-bottom: .5em;
+  text-align: left;
 }
 
 .project p {
+  color: #17b978;
   font-size: 1em;
+  text-align: left;
+}
+
+.project-tech {
+  bottom: 0;
+  left: 1em;
+  position: absolute;
+  text-align: left;
 }
 
 /* *******************************CONTACT*********************************** */
@@ -240,35 +322,44 @@ h1 {
 
 .contact-container {
   height: 35vh;
-  padding-top: 5em;
+  padding-top: 10em;
 }
 
 .contact {
   color: white;
   margin: 0 auto;
-  width: 60%;
+  min-width: 20em;
+  width: 50%;
+}
+
+.contact h1 {
+  color: #9df3c4;
+}
+
+.contact p {
+  color: #62d2a2;
 }
 
 .contact button {
-  background-color: #95b2ec;
-  border: solid #EAEAEA 3px;
-  color: #EAEAEA;
+  background-color: #d7fbe8;
+  border: 2px solid #62d2a2 ;
   cursor: pointer;
-  font-size: 2em;
-  padding: .5em;
+  font-size: 1.5em;
+  padding: .3em;
   text-align: center;
   
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .contact a {
+  color: #1fab89;
   text-decoration: none;
 }
 
 .contact button:hover {
-  background-color: #08D9D6;
+  background-color: #62d2a2;
   color: #252A34;
   text-decoration: none;
 
@@ -282,8 +373,14 @@ footer {
   width: 100%;
 }
 
-footer h1, h4 {
-  color: white;
+footer h1 {
+  color: #d7fbe8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer h4 {
+  color: #62d2a2;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -291,8 +388,10 @@ footer h1, h4 {
 footer hr {
   width: 30%;
 }
+
 .link-img {
-  margin: 2vw;
+  filter: invert(49%) sepia(99%) saturate(341%) hue-rotate(115deg) brightness(92%) contrast(89%);
+  margin: 0 1vw;
   width: 3em;
 }
 

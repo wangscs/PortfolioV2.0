@@ -1,58 +1,60 @@
 const projectList = [
   {
     id: 1,
-    imageURL:
-      "/",
-    title:"Rethinq",
+    title:"Rethinq (Wolfram Award)",
     description: "A full stack web application using Java/SpringBoot backend and React for frontend developed for ShellHacks 2020. Provides an online platform for students and tutors to connect virtually during COVID-19.",
     repoLink: "https://github.com/wangscs/rethinq-ui",
     liveProject: "https://devpost.com/software/rethinq",
+    technologies: ["React", "Java", "Springboot"],
   },
   {
     id: 2,
-    imageURL:
-      "/",
+    title:"Patrol Shift Bid Scheduler",
+    description: "A private web application designed to assist the Pinecrest Police Department automate and simplify their process of assigning officer shifts.",
+    repoLink: "private",
+    liveProject: "private",
+    technologies: ["PHP", "Laravel", "Docker", "MySQL"],
+  },
+  {
+    id: 3,
     title:"Whispering Secrets",
     description: "A form of anonymous social media that allows users to post and share their secret. Uses high level security to ensure user's privacy and security concerns.",
     repoLink: "https://github.com/wangscs/SecretsApp",
     liveProject: "",
+    technologies: ["EJS", "Express", "Node", "MongoDB", "PassportJS:OAuth2.0"],
   },
   {
-    id: 3,
-    imageURL:
-      "/",
+    id: 4,
     title:"GeekText",
     description: "Created an online bookstore with a team of 4. My responsibilities included profile management and maintaining persistent data in a database.",
     repoLink: "https://github.com/wangscs/GeekText",
     liveProject: "",
+    technologies: ["JS", "Firebase"],
   },
   {
-    id: 4,
-    imageURL:
-      "/",
+    id: 5,
     title:"Simple Todo List in Express",
     description: "A simple todo list that displays the tasks that the user can check off as completed",
     repoLink: "https://github.com/wangscs/Simple-Todo-List",
     liveProject: "https://stark-inlet-67874.herokuapp.com/",
+    technologies: ["EJS", "Express", "Node.js", "MongoDB"],
   },
   {
-    id: 5,
-    imageURL:
-      "/",
+    id: 6,
     title:"Survival: Rhaz",
     description: "A 2D game created using Unity Game Engine for the purpose of participating in Global Game Jam 2020. ",
     repoLink: "https://github.com/wangscs/RHAZ",
     liveProject: "https://simmer.io/@Dazen/rhaz",
+    technologies: ["Unity Game Engine", "C#"],
   },
-  {
-    id: 6,
-    imageURL:
-      "/",
-    title:"Blog about your life",
-    description: "A simple blog website that allows me to keep track and up to date regarding random topics.",
-    repoLink: "https://github.com/wangscs/My-Blog",
-    liveProject: "",
-  },
+  // {
+  //   id: 7,
+  //   title:"Blog about your life",
+  //   description: "A simple blog website that allows me to keep track and up to date regarding random topics.",
+  //   repoLink: "https://github.com/wangscs/My-Blog",
+  //   liveProject: "",
+  //   technologies: ["EJS", "Express", "Node.js"],
+  // },
 ]
 
 export default projectList;
