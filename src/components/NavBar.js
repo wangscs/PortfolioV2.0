@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { debounce} from '../utilities/helpers';
+import { debounce} from "../utilities/helpers";
+import logo from "./images/logo.png"
 
 function NavBar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -27,14 +28,24 @@ function NavBar() {
     <div className="nav-bar-container" style={{top: visible ? '0' : '-100px'}}>
       <ul className="navBar">
         <div className="nav-left">
-          <li><a href="#/">Home</a></li>
+          <a href="#/">
+            <img src={logo} className="logo" alt="Person portfolio logo icon"/>
+          </a>
         </div>
         <div className="nav-right">
           <li><a href="#about" className="nav-section">About</a></li>
           <li><a href="#skills" className="nav-section">Skills</a></li>
           <li><a href="#projects" className="nav-section">Projects</a></li>
           <li><a href="#contact" className="nav-section">Contact</a></li>
-          <li><a href="#resume" className="resume" style={{padding: ".3em"}}>Resume</a></li>
+          <li>
+            <a href="https://drive.google.com/file/d/1y4VkesOCOZ50W0nyZzrFpf1benf0BWgk/view?usp=sharing" 
+            className="resume" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{padding: ".3em"}}>
+              Resume
+            </a>
+          </li>
         </div>
         </ul>
     </div>

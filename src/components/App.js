@@ -6,8 +6,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import '../App.css';
-import ProjectList from '../ProjectList';
+import "../App.css";
+import ProjectList from "../ProjectList";
 import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -21,7 +21,7 @@ function App() {
         <Skills />
         <ScrollableAnchor id={"projects"}>
           <div className="project-container">
-          <ScrollAnimation animateIn="fadeInUp" >
+          <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
             <h1>Projects</h1>
             {ProjectList.map(projectItem => {
               return (
@@ -32,6 +32,7 @@ function App() {
                   description = {projectItem.description}
                   gitLink     = {projectItem.repoLink}
                   liveLink    = {projectItem.liveProject}
+                  tech        = {projectItem.technologies}
                 />
               );
             })}</ScrollAnimation>

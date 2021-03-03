@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   return(
     <ScrollableAnchor id={"contact"}>
-      <ScrollAnimation animateIn="fadeInUp" >
+      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
         <div className="contact-container">
           <div className="contact">
             <h1>Let's Connect!</h1>

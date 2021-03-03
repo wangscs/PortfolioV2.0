@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function Skills() {
   return (
     <ScrollableAnchor id={"skills"}>
-      <ScrollAnimation animateIn="fadeInUp">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
         <div className="skills-container">
           <div className="skills">
             <h1>Skills</h1>
@@ -32,7 +32,7 @@ function Skills() {
                   <p>Java</p>
                   {/* <p>Python</p> // Not really confident yet*/}
                   <p>Firebase</p>
-                  <p>PHP</p>
+                  {/* <p>PHP</p> */}
                   <p>Laravel</p>
               </div>
               <div className="ConceptDiv">

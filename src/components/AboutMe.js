@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function AboutMe() {
   return (
     <ScrollableAnchor id={"about"}>
-      <ScrollAnimation animateIn="fadeInUp">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
         <div className="about-me-container">
           <div className="about-me">
             <h1>About Me</h1>
