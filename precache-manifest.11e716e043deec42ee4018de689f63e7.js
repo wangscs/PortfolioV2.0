@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "991460be503d6e8672e7aab5750755da",
+    "revision": "4f75ce5093a33eba56e3c50f056bb9ef",
     "url": "/PortfolioV2.0/index.html"
   },
   {
-    "revision": "1deaa3c75721d60e62a1",
-    "url": "/PortfolioV2.0/static/css/main.7010da3b.chunk.css"
+    "revision": "c89663a93e09e4ab0dc0",
+    "url": "/PortfolioV2.0/static/css/main.719e88ab.chunk.css"
   },
   {
-    "revision": "45a059b30b3dc2afb332",
-    "url": "/PortfolioV2.0/static/js/2.d203e8a2.chunk.js"
+    "revision": "8db4c2f1e399c6cca539",
+    "url": "/PortfolioV2.0/static/js/2.240ab985.chunk.js"
   },
   {
     "revision": "16645896408a141b91c4e8727c0ec2d5",
-    "url": "/PortfolioV2.0/static/js/2.d203e8a2.chunk.js.LICENSE.txt"
+    "url": "/PortfolioV2.0/static/js/2.240ab985.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1deaa3c75721d60e62a1",
-    "url": "/PortfolioV2.0/static/js/main.0d30c76d.chunk.js"
+    "revision": "c89663a93e09e4ab0dc0",
+    "url": "/PortfolioV2.0/static/js/main.a6ff5636.chunk.js"
   },
   {
     "revision": "6abd0008f189f29cdc50",
@@ -40,11 +40,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortfolioV2.0/static/media/GitHub.d22ee372.png"
   },
   {
+    "revision": "fdfa559d2179f8598c2075c009e38bc5",
+    "url": "/PortfolioV2.0/static/media/ProjectFolder.fdfa559d.svg"
+  },
+  {
     "revision": "29e3f708fc88d9aa5c47ac197540fa37",
     "url": "/PortfolioV2.0/static/media/ending.29e3f708.png"
   },
   {
+    "revision": "029ae1098b0121f91f7bf3c63ccc48fa",
+    "url": "/PortfolioV2.0/static/media/github.029ae109.svg"
+  },
+  {
     "revision": "227a2b845ccf5e8e9b8e2d7c1ae528f3",
     "url": "/PortfolioV2.0/static/media/landingPage.227a2b84.png"
+  },
+  {
+    "revision": "8002d4bfe0ccff1690e827ea00f095e7",
+    "url": "/PortfolioV2.0/static/media/logo.8002d4bf.png"
+  },
+  {
+    "revision": "b3997ad89ba9097f36f694930aa64890",
+    "url": "/PortfolioV2.0/static/media/share.b3997ad8.svg"
   }
 ]);
