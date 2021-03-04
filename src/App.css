@@ -100,7 +100,7 @@ h1 {
 }
 
 .landing-page {
-  position: relative;
+  /* position: relative; */
   margin: auto;
   padding: auto 50px ;
   padding-top: 24em;
@@ -109,7 +109,8 @@ h1 {
 }
 
 .landing-page h3, h2, h1, p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: left;
 }
 
