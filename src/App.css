@@ -182,7 +182,6 @@ h1 {
 }
 
 .skills {
-  /* background-color: #62d2a2; */
   background-color: #d7fbe8;
   border-radius: 20px;
   padding: 2em;
@@ -207,7 +206,6 @@ h1 {
   height: 25em;
   width: 100%;
   text-align: center;
-  position: relative;
 }
 
 .FrontEndDiv {
@@ -216,7 +214,6 @@ h1 {
   margin: 0 auto;
   min-width: 8em;
   padding: 1em;
-  position: relative;
 }
 
 .BackEndDiv {
@@ -227,7 +224,6 @@ h1 {
   margin: 0 auto;
   min-width: 8em;
   padding: 1em;
-  position: relative;
 }
 
 .ConceptDiv {
@@ -236,17 +232,14 @@ h1 {
   margin: 0 auto;
   min-width: 8em;
   padding: 1em;
-  position: relative;
 }
 
 @media screen and (max-width:860px) {
   .FrontEndDiv, .BackEndDiv, .ConceptDiv {
-    width:100%;
+    width:85%;
   }
   .BackEndDiv{
     border: none;
-    border-top: 1px solid #086972;
-    border-bottom: 1px solid #086972;
   }
   .skills {
     height: 1250px;
