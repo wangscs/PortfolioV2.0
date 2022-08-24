@@ -1,31 +1,23 @@
 {
   "files": {
-    "main.css": "/PortfolioV2.0/static/css/main.ea75d753.chunk.css",
-    "main.js": "/PortfolioV2.0/static/js/main.28a822f4.chunk.js",
-    "main.js.map": "/PortfolioV2.0/static/js/main.28a822f4.chunk.js.map",
-    "runtime-main.js": "/PortfolioV2.0/static/js/runtime-main.06497555.js",
-    "runtime-main.js.map": "/PortfolioV2.0/static/js/runtime-main.06497555.js.map",
-    "static/js/2.240ab985.chunk.js": "/PortfolioV2.0/static/js/2.240ab985.chunk.js",
-    "static/js/2.240ab985.chunk.js.map": "/PortfolioV2.0/static/js/2.240ab985.chunk.js.map",
-    "index.html": "/PortfolioV2.0/index.html",
-    "precache-manifest.033b14f0031a5f466b39230545a0ec08.js": "/PortfolioV2.0/precache-manifest.033b14f0031a5f466b39230545a0ec08.js",
-    "service-worker.js": "/PortfolioV2.0/service-worker.js",
-    "static/css/main.ea75d753.chunk.css.map": "/PortfolioV2.0/static/css/main.ea75d753.chunk.css.map",
-    "static/js/2.240ab985.chunk.js.LICENSE.txt": "/PortfolioV2.0/static/js/2.240ab985.chunk.js.LICENSE.txt",
-    "static/media/BackEndIcon.svg": "/PortfolioV2.0/static/media/BackEndIcon.92c7d580.svg",
-    "static/media/ConceptIcon.svg": "/PortfolioV2.0/static/media/ConceptIcon.be2a454d.svg",
-    "static/media/FrontEndIcon.svg": "/PortfolioV2.0/static/media/FrontEndIcon.9901c4dd.svg",
-    "static/media/GitHub.png": "/PortfolioV2.0/static/media/GitHub.d22ee372.png",
-    "static/media/ProjectFolder.svg": "/PortfolioV2.0/static/media/ProjectFolder.fdfa559d.svg",
-    "static/media/App.css": "/PortfolioV2.0/static/media/landingPage.227a2b84.png",
-    "static/media/github.svg": "/PortfolioV2.0/static/media/github.029ae109.svg",
-    "static/media/logo.png": "/PortfolioV2.0/static/media/logo.8002d4bf.png",
-    "static/media/share.svg": "/PortfolioV2.0/static/media/share.b3997ad8.svg"
+    "main.css": "/static/css/main.44feb149.css",
+    "main.js": "/static/js/main.357beb94.js",
+    "static/media/ending.png": "/static/media/ending.fa3ec86a3fed3f9675cc.png",
+    "static/media/landingPage.png": "/static/media/landingPage.8f855d69e5c25c43f276.png",
+    "static/media/logo.png": "/static/media/logo.54b5a80a84e5be7ac759.png",
+    "static/media/GitHub.png": "/static/media/GitHub.a855c3975c028d8069f5.png",
+    "static/media/share.svg": "/static/media/share.5b2eab5d184570043d1b42439f342d87.svg",
+    "static/media/github.svg": "/static/media/github.ba48702d126d7e0b50f391cf014b0a91.svg",
+    "static/media/BackEndIcon.svg": "/static/media/BackEndIcon.8fcafea30c5b0437f6caca77023ebfaa.svg",
+    "static/media/FrontEndIcon.svg": "/static/media/FrontEndIcon.174f386c5cd491995af0c1f8e0d8da35.svg",
+    "static/media/ProjectFolder.svg": "/static/media/ProjectFolder.35fec8864888af8292cd2715d1c1f57e.svg",
+    "static/media/ConceptIcon.svg": "/static/media/ConceptIcon.b868d8cd9065143a62c9e4f245a80329.svg",
+    "index.html": "/index.html",
+    "main.44feb149.css.map": "/static/css/main.44feb149.css.map",
+    "main.357beb94.js.map": "/static/js/main.357beb94.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.06497555.js",
-    "static/js/2.240ab985.chunk.js",
-    "static/css/main.ea75d753.chunk.css",
-    "static/js/main.28a822f4.chunk.js"
+    "static/css/main.44feb149.css",
+    "static/js/main.357beb94.js"
   ]
 }
