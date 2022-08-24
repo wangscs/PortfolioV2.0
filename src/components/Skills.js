@@ -20,29 +20,31 @@ function Skills() {
                 <h3>FrontEnd</h3>
                   <p>HTML5</p>
                   <p>CSS3</p>
-                  <p>Javascript</p>
+                  <p>Javascript/TypeScript</p>
                   <p>JQuery</p>
                   <p>React.js</p>
+                  <p>Angular 11</p>
               </div>
               <div className="BackEndDiv">
                 <img src={BackEndIcon} className="skill-icon" alt="s"></img>
                 <h3>BackEnd</h3>
+                  <p>.NET 5</p>
                   <p>Express</p>
                   <p>Node.js</p>
                   <p>Java</p>
-                  {/* <p>Python</p> // Not really confident yet*/}
+                  <p>Python</p>
                   <p>Firebase</p>
                   {/* <p>PHP</p> */}
-                  <p>Laravel</p>
               </div>
               <div className="ConceptDiv">
                 <img src={ConceptIcon} className="skill-icon" alt="s"></img>
                 <h3>Database/Concepts</h3>
+                  <p>Git/GitHub/Azure DevOps</p>
                   <p>MongoDB</p>
                   <p>Docker</p>
-                  <p>MySQL</p>
+                  <p>MySQL/MSSQL</p>
                   <p>CI/CD</p>
-                  <p>Scrum</p>
+                  <p>Scrum/Agile Methodology</p>
               </div>
             </div>
           </div>

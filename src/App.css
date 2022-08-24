@@ -160,10 +160,6 @@ h1 {
   width: 80%;
 }
 
-.about-me {
-  margin: 0;
-}
-
 .about-me-container h1 {
   color: #9df3c4;
   font-size: 2em;
@@ -172,6 +168,18 @@ h1 {
 .about-me-container p {
   color: #62d2a2;
   font-size: 1em;
+}
+
+.about-me {
+  margin: 0;
+}
+
+.about-me a:link {
+  color: #62d2a2;
+}
+
+.about-me a:visited {
+  color: #62d2a2;
 }
 
 /* *******************************SKILLS PAGE******************************* */

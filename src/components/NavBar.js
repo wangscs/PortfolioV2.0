@@ -38,7 +38,7 @@ function NavBar() {
           <li><a href="#projects" className="nav-section">Projects</a></li>
           <li><a href="#contact" className="nav-section">Contact</a></li>
           <li>
-            <a href="https://drive.google.com/file/d/1y4VkesOCOZ50W0nyZzrFpf1benf0BWgk/view?usp=sharing" 
+            <a href="https://docs.google.com/document/d/1Zf2-Tvbq4HV_wmiwbjFFIJ8a_h3ZxkAz88dV6LfRzmU/edit?usp=sharing" 
             className="resume" 
             target="_blank" 
             rel="noopener noreferrer" 
