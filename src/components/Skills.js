@@ -12,24 +12,26 @@ function Skills() {
         <div className="skills-container">
           <div className="skills">
             <h1>Skills</h1>
-            <p>Here are some of the languages, concepts and technologies I have worked with: </p>
+            <p>Here are some of the languages, frameworks, and concepts I have worked with: </p>
 
             <div className="skill-table-container">
               <div className="FrontEndDiv">
                 <img src={FrontEndIcon} className="skill-icon" alt="s"></img>
                 <h3>FrontEnd</h3>
+                  <p>ReactJS</p>
+                  <p>TypeScript</p>
+                  <p>Javascript</p>
+                  <p>Angular 11</p>
+                  <p>JQuery</p>
                   <p>HTML5</p>
                   <p>CSS3</p>
-                  <p>Javascript/TypeScript</p>
-                  <p>JQuery</p>
-                  <p>React.js</p>
-                  <p>Angular 11</p>
               </div>
               <div className="BackEndDiv">
                 <img src={BackEndIcon} className="skill-icon" alt="s"></img>
                 <h3>BackEnd</h3>
-                  <p>.NET 5</p>
-                  <p>Express</p>
+                  <p>.NET 7</p>
+                  <p>VB.NET</p>
+                  <p>ExpressJS</p>
                   <p>Node.js</p>
                   <p>Java</p>
                   <p>Python</p>
@@ -39,11 +41,12 @@ function Skills() {
               <div className="ConceptDiv">
                 <img src={ConceptIcon} className="skill-icon" alt="s"></img>
                 <h3>Database/Concepts</h3>
-                  <p>Git/GitHub/Azure DevOps</p>
+                  <p>MySQL/MSSQL</p>
+                  <p>PostgreSQL</p>
                   <p>MongoDB</p>
                   <p>Docker</p>
-                  <p>MySQL/MSSQL</p>
                   <p>CI/CD</p>
+                  <p>Git/GitHub/Bitbucket</p>
                   <p>Scrum/Agile Methodology</p>
               </div>
             </div>

@@ -3,6 +3,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Contact() {
+
   return(
     <ScrollableAnchor id={"contact"}>
       <ScrollAnimation animateIn="fadeInUp" animateOnce="true">

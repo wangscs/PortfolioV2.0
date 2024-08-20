@@ -12,6 +12,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -21,21 +22,22 @@ function App() {
         <Skills />
         <ScrollableAnchor id={"projects"}>
           <div className="project-container">
-          <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
-            <h1>Projects</h1>
-            {ProjectList.map(projectItem => {
-              return (
-                <Projects
-                  key         = {projectItem.id}
-                  title       = {projectItem.title}
-                  img         = {projectItem.imageURL}
-                  description = {projectItem.description}
-                  gitLink     = {projectItem.repoLink}
-                  liveLink    = {projectItem.liveProject}
-                  tech        = {projectItem.technologies}
-                />
-              );
-            })}</ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+              <h1>Projects</h1>
+              {ProjectList.map(projectItem => {
+                return (
+                  <Projects
+                    key         = {projectItem.id}
+                    title       = {projectItem.title}
+                    img         = {projectItem.imageURL}
+                    description = {projectItem.description}
+                    gitLink     = {projectItem.repoLink}
+                    liveLink    = {projectItem.liveProject}
+                    tech        = {projectItem.technologies}
+                  />
+                );
+              })}
+            </ScrollAnimation>
           </div>
         </ScrollableAnchor>
         <div className="ending"> 
